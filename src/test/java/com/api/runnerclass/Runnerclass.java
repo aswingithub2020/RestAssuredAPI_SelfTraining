@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features = { "Feature" }, 
 				dryRun = false, 
 				monochrome = true,
-				glue = {"com.wellsfargo.flexloan.stepdefinition" }, plugin = { "html:target/cucumber-reports/cucumber-pretty.html",
+				glue = {"com.api.stepdefinition" }, plugin = { "html:target/cucumber-reports/cucumber-pretty.html",
 				"pretty" }, tags = "@apitest"
 
 )
